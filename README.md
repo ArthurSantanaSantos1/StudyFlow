@@ -57,7 +57,7 @@ O StudyFlow permite que o usuário:
 
 * HTML5
 * CSS3
-* JavaScript (Vanilla)
+* JavaScript
 
 ---
 
