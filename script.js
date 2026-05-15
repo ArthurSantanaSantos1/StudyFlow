@@ -404,3 +404,17 @@ if (typeof module !== 'undefined' && module.exports) {
     resetarEstado() { tarefas = []; proximoId = 1; },
   };
 }
+async function carregarDica() {
+  try {
+    const resposta = await fetch("https://api.adviceslip.com/advice");
+    const dados = await resposta.json();
+
+    document.getElementById("dica").textContent =
+      dados.slip.advice;
+  } catch (erro) {
+    document.getElementById("dica").textContent =
+      "Não foi possível carregar a dica.";
+  }
+}
+
+carregarDica();

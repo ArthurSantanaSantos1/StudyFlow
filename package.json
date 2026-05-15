@@ -2,7 +2,11 @@
   "name": "studyflow",
   "version": "1.0.0",
   "description": "O **StudyFlow** é uma aplicação web simples desenvolvida para ajudar estudantes a organizarem suas tarefas de estudo de forma prática e eficiente.",
+
+  "main": "script.js",
+
   "main": "index.js",
+
   "scripts": {
   "test": "jest"
   },
