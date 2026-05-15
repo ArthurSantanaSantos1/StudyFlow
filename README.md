@@ -55,7 +55,7 @@ O StudyFlow oferece uma interface intuitiva que permite ao usuário:
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 -  Adicionar tarefas de estudo;
 -  Organizar por matéria;
