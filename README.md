@@ -1,74 +1,90 @@
 # StudyFlow – Organizador de Estudos
 
-## Descrição do Projeto
+##  Aplicação Online
 
-O **StudyFlow** é uma aplicação web simples desenvolvida para ajudar estudantes a organizarem suas tarefas de estudo de forma prática e eficiente.
+https://study-flow.netlify.app
 
-O projeto foi criado com o objetivo de resolver um problema comum: a dificuldade em manter uma rotina de estudos organizada, o que pode impactar diretamente no desempenho acadêmico.
+##  Repositório no GitHub
+
+https://github.com/ArthurSantanaSantos1/StudyFlow
 
 ---
 
-## Problema Real
+##  Descrição do Projeto
+
+O **StudyFlow** é uma aplicação web desenvolvida para ajudar estudantes a organizarem suas tarefas de estudo de forma simples, prática e eficiente.
+
+O projeto surgiu para solucionar um problema muito comum entre estudantes: a dificuldade em manter uma rotina de estudos organizada, acompanhar tarefas pendentes e visualizar o progresso ao longo do tempo.
+
+Além das funcionalidades de gerenciamento de tarefas, a aplicação também integra uma API pública de dicas de programação, exibindo mensagens motivacionais e educativas para o usuário.
+
+---
+
+##  Problema Real
 
 Muitos estudantes enfrentam dificuldades em:
 
-* Organizar tarefas de estudo
-* Lembrar atividades pendentes
-* Manter consistência na rotina
+- Organizar suas atividades de estudo;
+- Lembrar tarefas pendentes;
+- Manter consistência na rotina;
+- Visualizar o próprio progresso;
+- Permanecer motivados durante os estudos.
 
 ---
 
-## Solução Proposta
+##  Solução Proposta
 
-O StudyFlow permite que o usuário:
+O StudyFlow oferece uma interface intuitiva que permite ao usuário:
 
-* Cadastre tarefas de estudo
-* Organize por matéria
-* Marque tarefas como concluídas
-* Remova tarefas finalizadas ou desnecessárias
-* Visualize seu progresso
-
----
-
-## Público-Alvo
-
-* Estudantes do ensino médio
-* Universitários
-* Pessoas em preparação para provas e concursos
+- Cadastrar tarefas de estudo;
+- Informar a matéria da tarefa;
+- Marcar tarefas como concluídas;
+- Remover tarefas desnecessárias;
+- Filtrar tarefas por status;
+- Visualizar o número total de tarefas;
+- Receber dicas de programação consumidas de uma API pública.
 
 ---
 
-## Funcionalidades
+##  Público-Alvo
 
-*  Adicionar tarefas de estudo
-*  Listar tarefas cadastradas
-*  Marcar tarefas como concluídas
-*  Remover tarefas
-*  Filtrar tarefas:
-
-  * Todas
-  * Concluídas
-  * Pendentes
-*  Contador de tarefas
+- Estudantes do ensino médio;
+- Universitários;
+- Pessoas que estão se preparando para vestibulares, ENEM e concursos públicos;
+- Iniciantes em programação.
 
 ---
 
-##  Tecnologias Utilizadas
+## ⚙️ Funcionalidades
 
-* HTML5
-* CSS3
-* JavaScript
+-  Adicionar tarefas de estudo;
+-  Organizar por matéria;
+-  Marcar tarefas como concluídas;
+-  Remover tarefas;
+-  Filtrar tarefas:
+  - Todas;
+  - Pendentes;
+  - Concluídas;
+-  Exibir contador de tarefas;
+-  Exibir dicas de programação obtidas por API pública.
 
 ---
 
-##  Autor
+##  API Pública Utilizada
 
-Arthur Santana Santos
+A aplicação utiliza a API pública:
+
+- https://programming-quotesapi.vercel.app/api/random
+
+Essa API retorna frases e dicas relacionadas à programação, utilizadas para motivar os estudantes e enriquecer a experiência do usuário.
 
 ---
 
-##  Link
+##  Testes Automatizados
 
-study-flow.netlify.app
+O projeto possui teste de integração utilizando **Jest**, responsável por validar o consumo da API pública.
 
+Para executar os testes:
 
+```bash
+npm test
