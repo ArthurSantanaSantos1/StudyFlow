@@ -1,0 +1,24 @@
+{
+  "name": "studyflow",
+  "version": "1.0.0",
+  "description": "O **StudyFlow** é uma aplicação web simples desenvolvida para ajudar estudantes a organizarem suas tarefas de estudo de forma prática e eficiente.",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthurSantanaSantos1/StudyFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ArthurSantanaSantos1/StudyFlow/issues"
+  },
+  "homepage": "https://github.com/ArthurSantanaSantos1/StudyFlow#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
